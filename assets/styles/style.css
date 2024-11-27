@@ -1,3 +1,36 @@
+/* Блок Вики */
+main aside{
+    background-color: #181818;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 25px 50px 25px 50px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    padding-right: 7px;
+}
+
+.icon_search{
+    display: flex;
+    align-items: center;
+
+}
+
+.cross{
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+}
+
+main span{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+/* Блок Лены */
 .block-green{
     box-sizing: border-box;
     background:#a8ff35 ;
