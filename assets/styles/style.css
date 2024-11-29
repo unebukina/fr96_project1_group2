@@ -10,6 +10,10 @@
   src: url(/assets/fonts/EffraMedium.ttf); /* обычное начертание */
 }
 
+body {
+  background-color: #000000; /* Черный фон */
+}
+
 .firstPage {
   background-color: #000000;
   text-align: center;
@@ -45,24 +49,23 @@
   line-height: 150%;
 }
 
-.button {
+.button1 {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 16px 32px;
   gap: 10px;
 
+  background:
   width: 180px;
   height: 57px;
   left: 630px;
   top: 478px;
 
   background: #a8ff35;
-  border-radius: 40px;
+  border-radius: 40px; transparent
 
   /* Get Started 🔥 */
-
   width: 116px;
   height: 25px;
 
@@ -71,13 +74,11 @@
   font-size: 18px;
   line-height: 140%;
   text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
 
   color: #000000;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  cursor: pointer;
 }
 
 .pic {
