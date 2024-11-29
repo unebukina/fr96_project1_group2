@@ -1,15 +1,91 @@
 /* Блок Вероники */
+@font-face {
+  font-family: "Effra";
+  src: url(/assets/fonts/Effra-Heavy.ttf);
+  font-weight: bold; /* жирное начертание */
+}
+
+@font-face {
+  font-family: "Effra";
+  src: url(/assets/fonts/EffraMedium.ttf); /* обычное начертание */
+}
 
 .firstPage {
   background-color: #000000;
   text-align: center;
   color: #ffffff;
+  box-sizing: border-box;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+}
+
+.h1 {
+  position: absolute;
+  width: 700px;
+  height: 81px;
+  left: 370px;
+  top: 198px;
 }
 
 .title {
   color: #ffffff (255, 255, 255);
+  font-family: "Effra", sans-serif;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 112%;
 }
 
+.subtitle {
+  color: #8b8b8b;
+  font-family: "Effra", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 10px;
+
+  width: 180px;
+  height: 57px;
+  left: 630px;
+  top: 478px;
+
+  background: #a8ff35;
+  border-radius: 40px;
+
+  /* Get Started 🔥 */
+
+  width: 116px;
+  height: 25px;
+
+  font-family: "Effra";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pic {
+  width: 99.42px;
+  height: 69.63px;
+  left: 828px;
+  top: 466px;
+}
 /* Блок Вики */
 #search {
   background-color: #181818;
