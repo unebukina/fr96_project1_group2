@@ -49,21 +49,20 @@ body {
   line-height: 150%;
 }
 
-.button1 {
+.buttonGetStarted {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 16px 32px;
   gap: 10px;
 
-  background:
   width: 180px;
   height: 57px;
   left: 630px;
   top: 478px;
 
   background: #a8ff35;
-  border-radius: 40px; transparent
+  border-radius: 40px;
 
   /* Get Started 🔥 */
   width: 116px;
