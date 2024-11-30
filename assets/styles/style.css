@@ -293,3 +293,26 @@ main span {
   position: relative;
   overflow: visible;
 }
+.container{
+    height: 124px;
+    width: 1180px;
+    display: flex;
+    margin: 24px;
+}
+h2{
+    font-size: 55px;
+    font-family: Effra;
+    font-style: normal;
+    text-align: center;
+    background-color: #FAFAFA;
+    width: 1180px;
+    height: 70px;
+    justify-content: space-evenly;
+}
+.image{
+    margin: auto;
+    gap:24px;
+}
+main{
+    background-color: #FAFAFA;
+}
