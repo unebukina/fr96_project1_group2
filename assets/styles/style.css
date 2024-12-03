@@ -316,3 +316,204 @@ h2{
 main{
     background-color: #FAFAFA;
 }
+
+/* блок Нади */
+
+/* Общие стили */
+
+.all-container {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.pricing-container {
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.offer {
+  font-size: 64px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+/* Переключатель (Monthly/Yearly) */
+.switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: white;
+}
+
+.text-discount {
+font-size: 14px;
+font-family: cursive;   
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Базовый стиль для переключателя */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+/* Скрытый input */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Слайдер */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 30px;
+}
+
+/* Круглый индикатор внутри слайдера */
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 3px;
+  bottom: 3px;
+  background-color: #A8FF35;
+  transition: 0.4s;
+  border-radius: 74.25px;
+}
+
+/* Состояние включено */
+input:checked + .slider {
+  background-color: #A8FF35;
+}
+
+input:checked + .slider::before {
+  transform: translateX(30px);
+}
+
+/* Карточки с тарифами */
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card.personal {
+  background-color: white;
+  color: black;
+}
+
+.card.regular {
+  background-color: #A8FF35;
+  color: black;
+}
+
+.card.premium {
+  background-color: white;
+  color: black;
+}
+
+.card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card .description {
+  font-size: 1em;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.card .price {
+  font-size: 2em;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.card .price span {
+  font-size: 0.6em;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.time {
+  color: #000;
+  font-weight: lighter;
+}
+
+.features li {
+  margin: 5px 0;
+}
+
+/* Кнопки */
+.card .btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #A8FF35;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-white {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold; 
+}
+
+.card .btn:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+/* конец блока Нади */
