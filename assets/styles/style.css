@@ -10,6 +10,12 @@
   src: url(/assets/fonts/EffraMedium.ttf); /* обычное начертание */
 }
 
+@font-face {
+  font-family: "EffraLight";
+  src: url(/assets/fonts/EffraLight.ttf);
+  font-weight:400;
+}
+
 body {
   background-color: #000000; /* Черный фон */
 }
@@ -369,7 +375,7 @@ header {
   justify-content: space-around;
   flex-wrap: nowrap;
   align-items: center;
-  font-family: 'Effra'; sans-serif;
+  font-family: 'EffraLight'; sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -425,7 +431,7 @@ header {
   justify-content: flex-end;
   flex-wrap: nowrap;
   align-items: center;
-  font-family: 'Effra';sans-serif;
+  font-family: 'EffraLight';sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -458,4 +464,6 @@ header {
   a:visited {
       color: aqua
   }
+
+/* Окончание блока Светы */
 
