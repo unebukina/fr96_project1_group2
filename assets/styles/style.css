@@ -466,5 +466,13 @@ header {
   border-radius: 40px;
 }
 
+a:hover {
+  color: rgb(43, 10, 232)
+}
+
+a:visited {
+  color: rgb(34, 240, 240);
+}
+
 /* Окончание блока Светы */
 
