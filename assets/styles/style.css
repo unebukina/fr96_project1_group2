@@ -330,7 +330,7 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
   width:100%;
-       }
+}
 
 .menu {
   display:flex;
@@ -341,23 +341,23 @@ header {
   background-color: #000000;
   color: #FFFFFF;
   width: 100%;
-         }    
+}    
 
 .logo {
   display:flex;
   flex-direction: row;
   align-items: center;
-               }
+}
 
 .img_logo {
   height: 40px;
   width: 40px;
   padding-right:11px;
   padding-left:20px;
-       }
+}
 
 .logo_name {
-  font-family: 'Inter'; sans-serif;
+  font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: 24px;
@@ -367,7 +367,7 @@ header {
   width: 114px;
   padding-right:50px;
   color:#FFFFFF;
-       }
+}
 
 .list {
   display:flex;
@@ -375,8 +375,7 @@ header {
   justify-content: space-around;
   flex-wrap: nowrap;
   align-items: center;
-  font-family: 'EffraLight'; sans-serif;
-  font-style: normal;
+  font-family: 'EffraLight', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -386,44 +385,50 @@ header {
   height:18px;
   list-style-type: none;
   padding-right:50px;
-     }
+}
 
 
   .list_item_1 {
       flex:none;
       order: 0;
       flex-grow: 0;
+      text-decoration: none;
               }
 
   .list_item_2 {
       flex:none;
       order: 1;
       flex-grow: 0;
+      text-decoration: none;
               }
   
   .list_item_3 {
       flex:none;
       order: 2;
       flex-grow: 0;
-               }
+      text-decoration: none;
+  }
 
   .list_item_4 {
       flex:none;
       order: 3;
       flex-grow: 0;
+      text-decoration: none;
               }
 
   .list_item_5 {
       flex:none;
       order: 4;
       flex-grow: 0;
-               }
+      text-decoration: none;
+}
 
   .list_item_6 {
       flex:none;
       order: 5;
       flex-grow: 0;
-             }    
+      text-decoration: none;
+}    
 
 .menu_buttons {
   display:flex;
@@ -431,7 +436,7 @@ header {
   justify-content: flex-end;
   flex-wrap: nowrap;
   align-items: center;
-  font-family: 'EffraLight';sans-serif;
+  font-family: 'EffraLight', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -443,7 +448,7 @@ header {
   background-color: #000000;
   color: #FFFFFF;
   margin-right:10px;
-         }
+}
 
 .button_register {
   width: 120px;
@@ -451,9 +456,9 @@ header {
   background-color: #FFFFFF;
   color:#000000; 
   border-radius: 40px;
-   }
+}
 
-   a:hover {
+a:hover {
       color: rgb(43, 10, 232)
   }
   
