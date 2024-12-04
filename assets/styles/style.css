@@ -370,6 +370,7 @@ header {
 }
 
 .list {
+  position:relative;
   display:flex;
   flex-direction: row;
   justify-content: space-around;
@@ -389,6 +390,7 @@ header {
 
 
   .list_item_1 {
+    color: #FFFFFF;
       flex:none;
       order: 0;
       flex-grow: 0;
@@ -396,6 +398,7 @@ header {
               }
 
   .list_item_2 {
+    color: #FFFFFF;
       flex:none;
       order: 1;
       flex-grow: 0;
@@ -403,6 +406,7 @@ header {
               }
   
   .list_item_3 {
+    color: #FFFFFF;
       flex:none;
       order: 2;
       flex-grow: 0;
@@ -410,6 +414,7 @@ header {
   }
 
   .list_item_4 {
+    color: #FFFFFF;
       flex:none;
       order: 3;
       flex-grow: 0;
@@ -417,6 +422,7 @@ header {
               }
 
   .list_item_5 {
+    color: #FFFFFF;
       flex:none;
       order: 4;
       flex-grow: 0;
@@ -424,6 +430,7 @@ header {
 }
 
   .list_item_6 {
+    color: #FFFFFF;
       flex:none;
       order: 5;
       flex-grow: 0;
@@ -447,7 +454,8 @@ header {
   height: 18px;
   background-color: #000000;
   color: #FFFFFF;
-  margin-right:10px;
+  margin-right:14px;
+  border:0;
 }
 
 .button_register {
@@ -457,18 +465,6 @@ header {
   color:#000000; 
   border-radius: 40px;
 }
-
-a:hover {
-      color: rgb(43, 10, 232)
-  }
-  
-  a:link {
-      color: rgb(241, 7, 163)
-  }
-  
-  a:visited {
-      color: aqua
-  }
 
 /* Окончание блока Светы */
 
