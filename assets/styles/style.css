@@ -606,14 +606,14 @@ header {
   display:flex;
   flex-direction: row;
   align-items: center;
-               }
+}
 
 .img_logo {
   height: 40px;
   width: 40px;
   padding-right:11px;
   padding-left:20px;
-       }
+}
 
 .logo_name {
   font-family: 'Inter', sans-serif;
@@ -626,7 +626,7 @@ header {
   width: 114px;
   padding-right:50px;
   color:#FFFFFF;
-       }
+}
 
 .list {
   position:relative;
@@ -635,7 +635,7 @@ header {
   justify-content: space-around;
   flex-wrap: nowrap;
   align-items: center;
-  font-family: 'Effra'; sans-serif;
+  font-family: 'Effra', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -646,7 +646,7 @@ header {
   height:18px;
   list-style-type: none;
   padding-right:50px;
-     }
+}
 
 
   .list_item_1 {
@@ -694,7 +694,7 @@ header {
       flex:none;
       order: 5;
       flex-grow: 0;
-             }    
+}    
 
 .menu_buttons {
   display:flex;
@@ -702,7 +702,7 @@ header {
   justify-content: flex-end;
   flex-wrap: nowrap;
   align-items: center;
-  font-family: 'Effra';sans-serif;
+  font-family: 'Effra',sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -713,7 +713,8 @@ header {
   height: 18px;
   background-color: #000000;
   color: #FFFFFF;
-  margin-right:10px;
+  margin-right:40px;
+  border:0;
 }
 
 .button_register {
@@ -722,17 +723,13 @@ header {
   background-color: #FFFFFF;
   color:#000000; 
   border-radius: 40px;
-   }
+}
 
-   a:hover {
+a:hover {
       color: rgb(43, 10, 232)
   }
   
-  a:link {
-      color: rgb(241, 7, 163)
-  }
-  
   a:visited {
-      color: aqua
+      color: rgb(17, 246, 246);
   }
 
