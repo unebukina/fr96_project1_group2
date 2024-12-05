@@ -663,3 +663,11 @@ a:hover {
 a:visited {
   color: rgb(17, 246, 246);
 }
+
+.open {
+  display: flex !important;
+}
+
+.nav_burger {
+  display: none;
+}
