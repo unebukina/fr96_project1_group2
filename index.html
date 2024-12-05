@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Findtrend</title>
     <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="shortcut icon" href="assets/icon/logotype.svg">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@100..900&family=Noto+Sans+Vithkuqi:wght@400..700&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
@@ -51,45 +52,48 @@
         </article>
         <!-- Часть Вики -->
         <!-- блок Твиттер -->
-        <aside id="search">
-            <span class="icon_search">
-                <img class="icon" src="./assets/icon/twitter.svg" alt="Логотип Twitter">
-                <span>Cryptopunk - Search</span>
-            </span>
-            <div>
-                <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">
-            </div>                
-        </aside>
-        <!-- блок Пинтерест-->
-        <aside id="search">
-            <span class="icon_search" id="under">
-                <img class="icon" src="./assets/icon/pinterest.svg" alt="Логотип Pinterest">
-                <span>Popular Design - Search</span>
-            </span>
-            <div class="opacity">
-                <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">
-            </div>
-        </aside>
-        <!-- блок Фэйсбук -->
-        <aside id="search">
-            <span class="icon_search" id="under">
-                <img class="icon" src="./assets/icon/facebook.svg" alt="Логотип Facebook">
-                <span>Product Design - Search</span>
-            </span>
-            <div class="opacity">
-                <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">
-            </div>
-        </aside>
-        <!-- блок Дриблинг-->
-        <aside id="search">
-            <span class="icon_search">
-                <img class="icon" src="./assets/icon/ball.svg" alt="Логотип Dribling">
-                <span>Elon Musk - Search</span>
-            </span>
-            <div>
-                <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">     
-            </div>
-        </aside>
+        <div class="requests">
+            <aside class="social_media" id="twitter">
+                <span class="icon_search">
+                    <img class="icon" src="./assets/icon/twitter.svg" alt="Логотип Twitter">
+                    <span>Cryptopunk - Search</span>
+                </span>
+                <div>
+                    <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">
+                </div>                
+            </aside>
+            <!-- блок Пинтерест-->
+            <aside class="social_media" id="pinterest">
+                <span class="icon_search" id="under">
+                    <img class="icon" src="./assets/icon/pinterest.svg" alt="Логотип Pinterest">
+                    <span>Popular Design - Search</span>
+                </span>
+                <div class="opacity">
+                    <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">
+                </div>
+            </aside>
+            <!-- блок Фэйсбук -->
+            <aside class="social_media" id="facebook">
+                <span class="icon_search" id="under">
+                    <img class="icon" src="./assets/icon/facebook.svg" alt="Логотип Facebook">
+                    <span>Product Design - Search</span>
+                </span>
+                <div class="opacity">
+                    <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">
+                </div>
+            </aside>
+            <!-- блок Дриблинг-->
+            <aside class="social_media" id="dribling">
+                <span class="icon_search">
+                    <img class="icon" src="./assets/icon/ball.svg" alt="Логотип Dribling">
+                    <span>Elon Musk - Search</span>
+                </span>
+                <div>
+                    <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">     
+                </div>
+            </aside>
+        </div>
+        <!--Конец блока Вики-->
 
         <!--Часть Лены -->
         <div class="block-green">
@@ -117,9 +121,10 @@
     </main>
 </div>
 </div>
-<!-- блок Лены М -->
-<body>
-    <main>
+
+<!-- блок Лены М --> 
+
+<div>
 <h2>All platform connect to Findtrend</h2>
 <div class="container">
     <div class="image">
@@ -133,5 +138,88 @@
     <img src="assets/img/VK.png" alt="VK">
 </div>
 </div>
+
+<!-- блок Нади -->
+
+<div class="all-container">
+<div class="pricing-container">
+    <!-- Заголовок -->
+    <h1 class="offer">Get your best deal</h1>
+
+    <!-- Переключатель (Monthly/Yearly) -->
+    <div class="switcher">
+        <span>Monthly</span>
+        <div class="toggle-container">
+            <label class="switch">
+                <input type="checkbox" id="toggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <span>Yearly</span>
+        <div class="discount-banner">
+    <div class="text-discount">
+        <p>Save 10% <br> per month</p>
+    </div>
+    <div class="arrow">
+        <!-- SVG стрелка -->
+        <svg width="28.39px" height="34.45px"></svg>
+        <img src="/assets/icon/Arrow.svg" alt="стрелка">
+    </div>
+</div>
+    </div>
+
+    <!-- Тарифы -->
+    <div class="pricing-cards">
+        <!-- Первый тариф -->
+        <div class="card personal">
+            <h3>Personal</h3>
+            <p class="description">Special first packet for all</p>
+            <div class="line">
+            </div>
+            <div class="price">$8 <span class="time">/ Month</span></div>
+            <ul class="features">
+                <li>Up to 5 pages each group</li>
+                <li>Up to 10 group page</li>
+                <li>5 Days group page saved</li>
+            </ul>
+            <button class="btn">Start Free Trial</button>
+        </div>
+
+        <!-- Второй тариф -->
+        <div class="card regular">
+            <h3>Regular</h3>
+            <p class="description">Recommended for personal pro</p>
+            <div class="price">$20 <span class="time">/ Month</span></div>
+            <ul class="features">
+                <li>Up to 15 pages each group</li>
+                <li>Download page up to 20 page</li>
+                <li>Up to 10 group page</li>
+                <li>15 Days group page saved</li>
+            </ul>
+            <button class="btn-white">Start Free Trial</button>
+        </div>
+
+        <!-- Третий тариф -->
+        <div class="card premium">
+            <h3>Premium</h3>
+            <p class="description">Packet for Startup & Company</p>
+            <div class="price">$48 <span class="time">/ Month</span></div>
+            <ul class="features">
+                <li>Unlimited group pages</li>
+                <li>Unlimited download page</li>
+                <li>Unlimited page each group</li>
+                <li>Customize sorting group pages</li>
+                <li>Customize group page name</li>
+                <li>30 days group page saved</li>
+            </ul>
+            <button class="btn">Start Free Trial</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- конец блока Нади -->
+</main>
 </body>
 </html>
