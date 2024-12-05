@@ -203,190 +203,115 @@ main span {
 /* Конец блока Вики */
 
 /* Блок Лены */
-.block-green {
-  box-sizing: border-box;
-  background: #a8ff35;
-  height: 1326px;
-  position: relative;
-}
-.container-green,
-.container-green * {
-  box-sizing: border-box;
-}
 .container-green {
-  height: 825.62px;
-  position: relative;
+  margin: 0;
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  background: #a8ff35;
 }
 
-.group1 {
-  width: 99.42px;
-  height: 124.42px;
-  position: static;
-}
-.you-just {
-  color: black;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  position: absolute;
-  left: 708.93px;
-  top: 350.26px;
-  width: 94.11px;
-  height: 49.85px;
-  transform-origin: 0 0;
-  transform: rotate(3.419deg) scale(0.985, 1.015);
-}
-.image-1 {
-  width: 49.06px;
-  height: 37.86px;
-  position: absolute;
-  left: 743.52px;
-  top: 426.41px;
-  overflow: visible;
-}
-.a-solution-for * {
-  box-sizing: border-box;
-}
-.a-solution-for {
-  color: #000000;
-  text-align: center;
-  font-family: efra "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, sans-serif;
-  font-size: 18px;
-  line-height: 150%;
-  font-weight: 400;
-  position: absolute;
-  left: 94px;
-  top: 729.12px;
-  width: 666px;
-  height: 96.5px;
+.block-green {
+  padding: 140px 293px;
+  display: grid;
+  justify-items: center;
 }
 
-.group-2 {
-  width: 95.42px;
-  height: 129.68px;
-  position: static;
-}
-.image-2 {
-  width: 49.06px;
-  height: 37.86px;
-  position: absolute;
-  left: 100px;
-  top: 427.13px;
-  overflow: visible;
-}
-.solution-for-discover {
-  color: #000000;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  position: absolute;
-  left: 58.92px;
-  top: 441.4px;
-  width: 94.11px;
-  height: 49.85px;
-  transform-origin: 0 0;
-  transform: rotate(3.419deg) scale(0.985, 1.015);
-}
-.block-white,
-.block-white * {
-  box-sizing: border-box;
-}
-.block-white {
-  background: #f5f5f5;
-  border-radius: 16px;
-  height: 360.99px;
-  width: 502px;
-  position: absolute;
-  left: 176px;
-  top: 260.91px;
-}
 .open-new-tabs {
   color: black;
   text-align: center;
   font-family: "Effra-Bold", sans-serif;
   font-size: 72px;
   font-weight: 700;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 854px;
-  height: 153.69px;
 }
 
-.block-black {
-  width: 341.23px;
-  height: 146.54px;
-  position: static;
-}
-.element-1 {
-  background: #030303;
-  width: 341.23px;
-  height: 146.54px;
-  position: absolute;
-  left: 256px;
-  top: 368.13px;
-}
-.group-3 {
+.box-group {
   display: flex;
-  flex-direction: row;
-  gap: 15.87px;
-  align-items: center;
-  justify-content: flex-start;
-  width: 277.74px;
-  height: 56.72px;
-  position: absolute;
-  left: 295.68px;
-  top: 413.04px;
+  justify-content: center;
 }
+
+.group-1 {
+  margin: 126px 0 123px;
+}
+
+.image-1 {
+  margin: 0 50px;
+}
+
+.solution-for-discover {
+  color: #000000;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 94px;
+  height: 49px;
+  transform-origin: 0 0;
+  transform: rotate(6deg);
+}
+
+.group-2 {
+  margin: 60px 0 60px;
+  background-color: white;
+  height: 202px;
+  border-radius: 16px;
+  z-index: 2;
+}
+
+.black-group-2 {
+  margin: 60px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  z-index: 1;
+  width: 340px;
+  height: 82px;
+}
+
+.image-2 {
+  margin-right: 15px;
+}
+
 .text-1 {
   color: #ffffff;
   text-align: center;
   font-family: "Roboto-Regular", sans-serif;
-  font-size: 23.80644989013672px;
+  font-size: 23px;
   font-weight: 400;
   position: relative;
 }
-.image-3 {
-  flex-shrink: 0;
-  width: 31.74px;
-  height: 31.74px;
-  position: relative;
-  overflow: visible;
+
+.group-3 {
+  margin: 110px 0 142px 24px;
 }
+
 .image-4 {
-  flex-shrink: 0;
-  width: 31.74px;
-  height: 31.74px;
-  position: relative;
-  overflow: visible;
+  margin: 0 5px;
 }
-.container {
-  height: 124px;
-  width: 1180px;
-  display: flex;
-  margin: 24px;
-}
-h2 {
-  font-size: 55px;
-  font-family: Effra;
-  font-style: normal;
+
+.you-just {
+  color: black;
   text-align: center;
-  background-color: #fafafa;
-  width: 1180px;
-  height: 70px;
-  justify-content: space-evenly;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  word-wrap: break-word;
+  width: 94px;
+  transform-origin: 0 0;
+  transform: rotate(6deg);
 }
-.image {
-  margin: auto;
-  gap: 24px;
-}
-main {
-  background-color: #fafafa;
+
+.a-solution-for {
+  margin: 0 100px;
+  color: #000000;
+  text-align: center;
+  font-family: "Effra", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  word-wrap: break-word;
 }
 
 /* блок Нади */
