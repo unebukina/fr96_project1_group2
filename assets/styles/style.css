@@ -403,6 +403,45 @@ h2{
     height: 70px;
     justify-content: space-evenly;
 }
+.tweet1{
+  border: 1px solid grey;
+  width: 800px;
+  height: auto;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+#pic1{
+  float: left;
+}
+#text1{
+  margin-left: 210px;
+}
+#text2{
+  margin-left: 210px;
+}
+.color{
+  color: rgb(26, 178, 224);
+}
+.tweet2{
+  border: 1px solid grey;
+  width: 800px;
+  height: auto;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+#pic{
+  float: left;
+}
+#text{
+  margin-left: 210px;
+}
+.sign{
+  border: 1px solid color grey;
+
+}
+.sign figcaption{
+  margin: 0 auto 5px;
+}
 
 /* Скрытый input */
 .switch input {
