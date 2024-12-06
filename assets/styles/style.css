@@ -293,6 +293,7 @@ main span {
   position: relative;
   overflow: visible;
 }
+/* блок Лены М начало */
 .container{
     height: 124px;
     width: 1180px;
@@ -301,7 +302,8 @@ main span {
 }
 h2{
     font-size: 55px;
-    font-family: Effra;
+    font-family: efra "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, sans-serif;
     font-style: normal;
     text-align: center;
     background-color: #FAFAFA;
@@ -313,10 +315,10 @@ h2{
     margin: auto;
     gap:24px;
 }
-main{
+section{
     background-color: #FAFAFA;
 }
-
+/* блок Лены М конец */
 /* Блок Светы */
 header {
   background-color: #000000;
@@ -324,7 +326,7 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
   width:100%;
-       }
+}
 
 .menu {
   display:flex;
@@ -335,7 +337,7 @@ header {
   background-color: #000000;
   color: #FFFFFF;
   width: 100%;
-         }    
+}    
 
 .logo {
   display:flex;
@@ -351,7 +353,7 @@ header {
        }
 
 .logo_name {
-  font-family: 'Inter'; sans-serif;
+  font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: 24px;
@@ -369,7 +371,7 @@ header {
   justify-content: space-around;
   flex-wrap: nowrap;
   align-items: center;
-  font-family: 'Effra'; sans-serif;
+  font-family: 'Effra', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -425,7 +427,7 @@ header {
   justify-content: flex-end;
   flex-wrap: nowrap;
   align-items: center;
-  font-family: 'Effra';sans-serif;
+  font-family: 'Effra',sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
