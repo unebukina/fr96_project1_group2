@@ -406,6 +406,7 @@ h2{
 }
 .tweet1{
   border: 1px solid grey;
+  border-radius: 15px;
   width: 800px;
   height: auto;
   margin-left: 200px;
@@ -427,6 +428,7 @@ h2{
 }
 .tweet2{
   border: 1px solid grey;
+  border-radius: 15px;
   width: 800px;
   height: auto;
   margin-left: 200px;
@@ -441,12 +443,16 @@ h2{
   margin-left: 200px;
 }
 .sign{
-  border: 1px solid color grey;
-
+  border: 1px solid white;
+  margin-left: 200px;
 }
 .sign figcaption{
   margin: 0 auto 2px;
 }
+.ellipsis{
+  margin-left: 480px;
+}
+
 /* блок Лены М конец */
 /* Скрытый input */
 .switch input {
