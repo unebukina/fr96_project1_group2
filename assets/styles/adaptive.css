@@ -1,0 +1,278 @@
+@media screen and (max-width: 500px){
+    
+    /* Область 1 */
+    
+    .menu {
+        padding: 0 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo_name {
+        display: none;
+    }
+    .img_logo {
+        padding: 24px 0 0 18px;
+    }
+    .list {
+        display: none;
+    }
+
+    .menu_buttons {
+        display: none;
+    }
+
+    .nav_burger {
+        margin: 0 18px 0 0;
+        display: flex;
+        position: relative;
+        z-index: 50;
+        align-items: center;
+        justify-content: flex-end;
+        width: 30px;
+        height: 18px;
+    }
+    .nav_burger span {
+        height: 2px;
+        width: 80%;
+        transform: scale(1);
+        background-color: #ffffff;
+    }
+    .nav_burger::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 80%;
+        background-color: #ffffff;
+        transition: all 0.3s ease 0s;
+    }
+    .nav_burger::after { bottom: 0 }
+
+    .nav_burger.active span {
+        top: 50%;
+        transform: translateY(-50%);
+        transform: rotate(45deg);
+    }
+    .nav_burger.active::after {
+        top: 50%;
+        transform: translateY(-50%);
+        transform: rotate(-45deg);
+    }
+
+    .button_login {
+        display: none;
+    }
+    .button_register {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        top: 0; bottom: 0; left: 0; right: 0;
+        overflow-y: auto;
+        background-color: black;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    /* Область 2 */
+
+    .title {
+        font-size: 36px;
+    }
+
+    .psubtitle {
+        padding: 0 44px;
+        font-size: 14px;
+    }
+
+    .buttonGetStarted {
+        margin: 0 118px;
+        font-size: 14px;
+        width: 139px;
+        height: 44px;
+    }
+
+    .pic {
+        display: none;
+    }
+
+    /* Область 3 */
+
+    .requests {
+        margin: 0 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #twitter {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        transform: rotate(-4deg);
+        z-index: 4;
+    }
+    #facebook {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        transform: rotate(-2deg);
+        z-index: 2;
+    }
+    #dribling {
+        position: relative;
+        right: 0;
+        transform: rotate(4deg);
+        z-index: 1;
+    }
+
+    /* Область 4 */
+
+    .block-green {
+        padding: 80px 18px;
+    }
+
+    .open-new-tabs {
+        font-size: 36px;
+    }
+
+    .box-group {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .group-1 {
+        margin: 0;
+        padding-bottom: 34px;
+        position: relative;
+        bottom: 20px;
+        z-index: 3;
+    }
+
+    .solution-for-discover {
+        transform: rotate(1.13deg); 
+    }
+
+    .group-2 {
+        margin: 0px;
+        width: 339px;
+        height: 118px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .group-3 {
+        margin: 0;
+        padding-top: 32px;
+        padding-bottom: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative;
+        top: 23px;
+        z-index: 3;
+    }
+
+    .image-1 {
+        margin: 0 40px;
+        transform: rotate(-35deg);
+    }
+
+    .image-4 {
+        margin: 0;
+        padding: 0 50px 0 30px;
+        transform: scaleY(-1);
+        rotate: -50deg;
+    }
+
+    .black-group-2 {
+        width: 291px;
+        height: 69px;
+        margin: 24px;
+    }
+
+    .text-1 {
+        font-size: 18px;
+    }
+
+    .a-solution-for {
+        margin: 0;
+        padding: 0 45px;
+        font-size: 14px;
+    }
+
+    .black-group-2::after {
+        content: "";
+        position: absolute;
+        right: 10px;
+        width: 75px;
+        height: 65px;
+        background: linear-gradient(270deg, #030303 54%, rgba(3, 3, 3, 0.60) 100%);
+    }
+
+    .image-3{
+        position: relative;
+        z-index: 1;
+    }
+
+    /* Область 6 */
+
+    /* Область 7 */
+
+    /* Область 8 */
+
+    .offer {
+        font-size: 36px;
+    }
+
+    .switcher {
+        padding: 0 50px;
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        gap: 0;
+        font-size: 18px;
+    }
+
+    .switch {
+        width: 104px;
+        height: 44px;
+    }
+
+    .slider::before {
+        margin: 8px;
+    }
+
+    .discount-banner {
+        display: flex;
+        flex-direction: column-reverse;
+        grid-row: 2/6;
+        grid-column: 2/6;
+    }
+
+    .text-discount {
+        padding-left: 60px;
+        transform: rotate(6deg);
+        font-size: 12px;
+    }
+
+    .arrow {
+        padding-left: 15px;
+        margin-top: 10px;
+        transform: scaleY(-1);
+        rotate: 30deg;
+    }
+
+    .pricing-cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0 18px;
+    }
+
+    /* Область 9 */
+}

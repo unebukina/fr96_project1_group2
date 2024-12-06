@@ -1,138 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Findtrend</title>
     <link rel="stylesheet" href="./assets/styles/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@100..900&family=Noto+Sans+Vithkuqi:wght@400..700&family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/adaptive.css">
+    <link rel="shortcut icon" href="assets/icon/logotype.svg">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@100..900&family=Noto+Sans+Vithkuqi:wght@400..700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- Часть Светы начало -->
     <header>
         <div class="menu">
             <!-- Логотип -->
             <div class="logo">
-              <img
-                class="img_logo"
-                src="assets/icon/logotype.svg"
-                alt="Логотип"
-              />
-              <p class="logo_name">Findtrend</p>
+                <img class="img_logo" src="assets/icon/logotype.svg" alt="Логотип" />
+                <p class="logo_name">Findtrend</p>
             </div>
             <!-- Меню навигации -->
-            <nav>
-              <ul class="list">
-                <li><a class="list_item_1" href="list_item_1">About</a></li>
-                <li><a class="list_item_2" href="list_item_2">How it work</a></li>
-                <li><a class="list_item_3" href="list_item_3">Pricing</a></li>
-                <li><a class="list_item_4" href="list_item_4">Solution</a></li>
-                <li><a class="list_item_5" href="list_item_5">Features</a></li>
-              </ul>
+            <nav class="navbar">
+                <ul class="list">
+                    <li><a class="list_item_1" href="list_item_1">About</a></li>
+                    <li><a class="list_item_2" href="list_item_2">How it work</a></li>
+                    <li><a class="list_item_3" href="list_item_3">Pricing</a></li>
+                    <li><a class="list_item_4" href="list_item_4">Solution</a></li>
+                    <li><a class="list_item_5" href="list_item_5">Features</a></li>
+                </ul>
+                <!-- Иконка бургер-меню -->
+                <div class="nav_burger">
+                    <span></span>
+                </div>
             </nav>
             <!-- Кнопки -->
             <div class="menu_buttons">
-              <button class="button_login">Login</button>
-              <button class="button_register">Register</button>
+                <button class="button_login">Login</button>
+                <button class="button_register">Register</button>
             </div>
-          </div>
-        </header>
+        </div>
+    </header>
     <!-- Часть Светы конец -->
     <main>
         <!-- Часть Вероники -->
         <article class="firstPage">
             <h1 class="title">Minimize your tabs. <br>Find the trends!
             </h1>
-            <div class="subtitle"><p class="psubtitle">Don’t let your computer memories consumes all of those browser tabs. <br> Findtrend let you gathers all of your favorite website into one place.</p></div>
-            <button type="button" class="buttonGetStarted">Get Started 🔥</button>
-            <img class="pic" src="assets/images/img-hero.png" alt="подпись"></img>
+            <div class="subtitle">
+                <p class="psubtitle">Don’t let your computer memories consumes all of those browser tabs. <br> Findtrend
+                    let you gathers all of your favorite website into one place.</p>
+            </div>
+            <div class="buttomTekst">
+                <button type="button" class="buttonGetStarted">Get Started 🔥</button>
+                <img class="pic" src="assets/images/img-hero.png" alt="подпись"></img>
+            </div>
         </article>
         <!-- Часть Вики -->
         <!-- блок Твиттер -->
-        <aside id="search">
-            <span class="icon_search">
-                <img class="icon" src="./assets/icon/twitter.svg" alt="Логотип Twitter">
-                <span>Cryptopunk - Search</span>
-            </span>
-            <div>
-                <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">
-            </div>                
-        </aside>
-        <!-- блок Пинтерест-->
-        <aside id="search">
-            <span class="icon_search" id="under">
-                <img class="icon" src="./assets/icon/pinterest.svg" alt="Логотип Pinterest">
-                <span>Popular Design - Search</span>
-            </span>
-            <div class="opacity">
-                <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">
-            </div>
-        </aside>
-        <!-- блок Фэйсбук -->
-        <aside id="search">
-            <span class="icon_search" id="under">
-                <img class="icon" src="./assets/icon/facebook.svg" alt="Логотип Facebook">
-                <span>Product Design - Search</span>
-            </span>
-            <div class="opacity">
-                <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">
-            </div>
-        </aside>
-        <!-- блок Дриблинг-->
-        <aside id="search">
-            <span class="icon_search">
-                <img class="icon" src="./assets/icon/ball.svg" alt="Логотип Dribling">
-                <span>Elon Musk - Search</span>
-            </span>
-            <div>
-                <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">     
-            </div>
-        </aside>
+        <div class="requests">
+            <aside class="social_media" id="twitter">
+                <span class="icon_search">
+                    <img class="icon" src="./assets/icon/twitter.svg" alt="Логотип Twitter">
+                    <span>Cryptopunk - Search</span>
+                </span>
+                <div>
+                    <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">
+                </div>
+            </aside>
+            <!-- блок Пинтерест-->
+            <aside class="social_media" id="pinterest">
+                <span class="icon_search" id="under">
+                    <img class="icon" src="./assets/icon/pinterest.svg" alt="Логотип Pinterest">
+                    <span>Popular Design - Search</span>
+                </span>
+                <div class="opacity">
+                    <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">
+                </div>
+            </aside>
+            <!-- блок Фэйсбук -->
+            <aside class="social_media" id="facebook">
+                <span class="icon_search" id="under">
+                    <img class="icon" src="./assets/icon/facebook.svg" alt="Логотип Facebook">
+                    <span>Product Design - Search</span>
+                </span>
+                <div class="opacity">
+                    <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">
+                </div>
+            </aside>
+            <!-- блок Дриблинг-->
+            <aside class="social_media" id="dribling">
+                <span class="icon_search">
+                    <img class="icon" src="./assets/icon/ball.svg" alt="Логотип Dribling">
+                    <span>Elon Musk - Search</span>
+                </span>
+                <div>
+                    <img class="cross" src="./assets/icon/cross.svg" alt="Крестик">
+                </div>
+            </aside>
+        </div>
+        <!--Конец блока Вики-->
 
         <!--Часть Лены -->
-        <div class="block-green">
         <div class="container-green">
-            <div class="group-1">
-                <img class="image-1" src="assets/svg/Arrow4.svg" alt="left-arrow">
-                <div class="you-just ">you just need one tab now</div>
-            </div>
-            <div class="a-solution-for">A solution for your browser tabs and don’t make your device get slower over
-        time. Get ease and faster to discover a trend with just one tab.</div>
-        <div class="block-white"></div>
-        <div class="open-new-tabs">Open new tabs is sh*t</div>
-        <div class="block-black">
-            <div class="element-1"></div>
-            <div class="group-3">
-                <img class="image-3" src="/assets/svg/Group16.svg" alt="logo">
-                <div class="text-1">Findtrend - Elon Musk</div>
-            <img class="image-4" src="/assets/svg/Group1.svg" alt="white-cross">
+            <div class="block-green">
+                <div class="open-new-tabs">Open new tabs is sh*t</div>
+                <div class="box-group">
+                    <div class="group-1">
+                        <img class="image-1" src="assets/icon/arrow1.svg" alt="left-arrow">
+                        <div class="solution-for-discover">solution for discover a trend</div>
+                    </div>
+                    <div class="group-2">
+                        <div class="black-group-2">
+                            <img class="image-2" src="assets/icon/logotype.svg" alt="logo">
+                            <div class="text-1">Findtrend - Elon Musk</div>
+                            <img class="image-3" src="assets/icon/cross.svg" alt="cross">
+                        </div>
+                    </div>
+                    <div class="group-3">
+                        <div class="you-just">You just need one tab now</div>
+                        <img class="image-4" src="assets/icon/arrow2.svg" alt="right-arrow">
+                    </div>
+                </div>
+                <div class="a-solution-for">A solution for your browser tabs and don’t make your device get slower over
+                    time. Get ease and faster to discover a trend with just one tab.</div>
             </div>
         </div>
-            <div class="group-2">
-                <img class="image-2" src="assets/svg/Arrow6.svg" alt="right-arrow">
-                <div class="solution-for-discover">solution for discover a trend</div>
-            </div>
-    </main>
-</div>
-</div>
-<!-- блок Лены М -->
+        </div>
+        <div class="group-2">
+            <img class="image-2" src="assets/svg/Arrow6.svg" alt="right-arrow">
+            <div class="solution-for-discover">solution for discover a trend</div>
+        </div>
+    
+    
+    <!-- блок Лены М -->
 
     <section>
-<h2>All platform connect to Findtrend</h2>
-<div class="container">
-    <div class="image">
-    <img src="assets/img/FB.png" alt="фейсбук" >
-    <img src="assets/img/TV.png" alt="твиттер" >
-    <img src="assets/img/logo.png" alt="лого" >
-    <img src="assets/img/пинтерест.png" alt="пинтерест">
-    <img src="assets/img/M.png" alt="M">
-    <img src="assets/img/logo2.png" alt="лого2">
-    <img src="assets/img/in.png" alt="in">
-    <img src="assets/img/VK.png" alt="VK">
-</div>
-</div>
-</section>
+
+        <!-- блок Лены М -->
+
+        <div>
+            <h2>All platform connect to Findtrend</h2>
+            <div class="container">
+                <div class="image">
+                    <img src="assets/img/FB.png" alt="фейсбук">
+                    <img src="assets/img/TV.png" alt="твиттер">
+                    <img src="assets/img/logo.png" alt="лого">
+                    <img src="assets/img/пинтерест.png" alt="пинтерест">
+                    <img src="assets/img/M.png" alt="M">
+                    <img src="assets/img/logo2.png" alt="лого2">
+                    <img src="assets/img/in.png" alt="in">
+                    <img src="assets/img/VK.png" alt="VK">
+                </div>
+            </div>
+    </section>
+
+    <!-- блок Нади -->
+
+    <div class="all-container">
+        <div class="pricing-container">
+            <!-- Заголовок -->
+            <h1 class="offer">Get your best deal</h1>
+
+            <!-- Переключатель (Monthly/Yearly) -->
+            <div class="switcher">
+                <span>Monthly</span>
+                <div class="toggle-container">
+                    <label class="switch">
+                        <input type="checkbox" id="toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+                <span>Yearly</span>
+                <div class="discount-banner">
+                    <div class="text-discount">
+                        <p>Save 10% <br> per month</p>
+                    </div>
+                    <div class="arrow">
+                        <!-- SVG стрелка -->
+                        <svg width="28.39px" height="34.45px"></svg>
+                        <img src="/assets/icon/Arrow.svg" alt="стрелка">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Тарифы -->
+            <div class="pricing-cards">
+                <!-- Первый тариф -->
+                <div class="card personal">
+                    <h3>Personal</h3>
+                    <p class="description">Special first packet for all</p>
+                    <div class="line">
+                    </div>
+                    <div class="price">$8 <span class="time">/ Month</span></div>
+                    <ul class="features">
+                        <li>Up to 5 pages each group</li>
+                        <li>Up to 10 group page</li>
+                        <li>5 Days group page saved</li>
+                    </ul>
+                    <button class="btn">Start Free Trial</button>
+                </div>
+
+                <!-- Второй тариф -->
+                <div class="card regular">
+                    <h3>Regular</h3>
+                    <p class="description">Recommended for personal pro</p>
+                    <div class="price">$20 <span class="time">/ Month</span></div>
+                    <ul class="features">
+                        <li>Up to 15 pages each group</li>
+                        <li>Download page up to 20 page</li>
+                        <li>Up to 10 group page</li>
+                        <li>15 Days group page saved</li>
+                    </ul>
+                    <button class="btn-white">Start Free Trial</button>
+                </div>
+
+                <!-- Третий тариф -->
+                <div class="card premium">
+                    <h3>Premium</h3>
+                    <p class="description">Packet for Startup & Company</p>
+                    <div class="price">$48 <span class="time">/ Month</span></div>
+                    <ul class="features">
+                        <li>Unlimited group pages</li>
+                        <li>Unlimited download page</li>
+                        <li>Unlimited page each group</li>
+                        <li>Customize sorting group pages</li>
+                        <li>Customize group page name</li>
+                        <li>30 days group page saved</li>
+                    </ul>
+                    <button class="btn">Start Free Trial</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- конец блока Нади -->
+    </main>
+    <script>
+        document.querySelector('.nav_burger').addEventListener('click', function () {
+            this.classList.toggle('active');
+            document.querySelector('.navbar').classList.toggle('open');
+        })
+    </script>
 </body>
+
 </html>
