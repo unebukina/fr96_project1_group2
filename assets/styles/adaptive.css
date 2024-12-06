@@ -205,6 +205,20 @@
         font-size: 14px;
     }
 
+    .black-group-2::after {
+        content: "";
+        position: absolute;
+        right: 10px;
+        width: 75px;
+        height: 65px;
+        background: linear-gradient(270deg, #030303 54%, rgba(3, 3, 3, 0.60) 100%);
+    }
+
+    .image-3{
+        position: relative;
+        z-index: 1;
+    }
+
     /* Область 6 */
 
     /* Область 7 */
