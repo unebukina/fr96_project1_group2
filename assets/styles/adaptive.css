@@ -148,12 +148,21 @@
     .group-1 {
         margin: 0;
         padding-bottom: 34px;
+        position: relative;
+        bottom: 20px;
+        z-index: 3;
+    }
+
+    .solution-for-discover {
+        transform: rotate(1.13deg); 
     }
 
     .group-2 {
         margin: 0px;
         width: 339px;
         height: 118px;
+        position: relative;
+        z-index: 1;
     }
 
     .group-3 {
@@ -161,15 +170,23 @@
         padding-top: 32px;
         padding-bottom: 14px;
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative;
+        top: 23px;
+        z-index: 3;
     }
 
     .image-1 {
+        margin: 0 40px;
         transform: rotate(-35deg);
     }
 
     .image-4 {
+        margin: 0;
+        padding: 0 50px 0 30px;
         transform: scaleY(-1);
+        rotate: -50deg;
     }
 
     .black-group-2 {
@@ -183,6 +200,8 @@
     }
 
     .a-solution-for {
+        margin: 0;
+        padding: 0 45px;
         font-size: 14px;
     }
 
@@ -197,11 +216,41 @@
     }
 
     .switcher {
+        padding: 0 50px;
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        gap: 0;
         font-size: 18px;
     }
 
+    .switch {
+        width: 104px;
+        height: 44px;
+    }
+
+    .slider::before {
+        margin: 8px;
+    }
+
     .discount-banner {
-        
+        display: flex;
+        flex-direction: column-reverse;
+        grid-row: 2/6;
+        grid-column: 2/6;
+    }
+
+    .text-discount {
+        padding-left: 60px;
+        transform: rotate(6deg);
+        font-size: 12px;
+    }
+
+    .arrow {
+        padding-left: 15px;
+        margin-top: 10px;
+        transform: scaleY(-1);
+        rotate: 30deg;
     }
 
     .pricing-cards {
