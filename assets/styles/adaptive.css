@@ -275,4 +275,74 @@
     }
 
     /* Область 9 */
+    /* блок Лены М */
+    .container{
+        width: 100%;
+        margin: 5px;
+    }
+    .brd{
+        font-size: 25px;
+        width: 85%;
+        height: 50px;
+    }
+    .img{
+        margin-left: 30px;
+    }
+    .img_1{
+        width: 50px;
+        height: 50px;
+    }
+    .img_2{
+        width: 50px;
+        height: 50px;
+    }
+    .img_3{
+        width: 50px;
+        height: 50px;
+    }
+    .img_4{
+        width: 50px;
+        height: 50px;
+    }
+    .img_5{
+        width: 50px;
+        height: 50px;
+    }
+    .img_6{
+        width: 50px;
+        height: 50px;
+    }
+    .img_7{
+        width: 50px;
+        height: 50px;
+    }
+    .img_8{
+        width: 50px;
+        height: 50px;
+    }
+    .tweet1{
+        width: 80%;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    #text1{
+        margin-left: 100px;
+    }
+    #text2{
+        margin-left: 100px;
+    }
+    .tweet2{
+        width: 80%;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    #text{
+        margin-left: 100px;
+    }
+    .sign{
+        margin-left: 100px;
+    }
+    .sign_foto{
+        height: 150px;
+    }
 }
