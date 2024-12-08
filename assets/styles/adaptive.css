@@ -12,6 +12,7 @@
     }
     .img_logo {
         padding: 24px 0 0 18px;
+        z-index: 60;
     }
     .list {
         display: none;
