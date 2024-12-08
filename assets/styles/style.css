@@ -413,8 +413,8 @@ section{
 /* блок Лены М конец */
 
 /* блок Нади */
-/* Общие стили */
 
+/* Общие стили */
 .all-container {
   margin: 0;
   font-family: "Effra", sans-serif;
@@ -438,9 +438,7 @@ section{
   color: white;
 }
 
-
 /* Переключатель (Monthly/Yearly) */
-
 .monthly {
   font-family: Inter;
   font-weight: 500;
@@ -590,7 +588,6 @@ input:checked + .slider::before {
 .card .price {
   font-size: 50px;
   margin: 15px 0;
-  /* font-weight: bold; */
 }
 
 .card .price span {
@@ -670,7 +667,6 @@ input:checked + .slider::before {
   display: flex;
   transform: translateX(35px);
 }
-
 /* конец блока Нади */
 
 /* Блок Светы */
