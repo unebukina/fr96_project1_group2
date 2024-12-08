@@ -765,3 +765,25 @@ a:visited {
 .nav_burger {
   display: none;
 }
+
+.white_container {
+  margin: 0;
+  padding: 140px;
+  background-color: #ffffff;
+  font-size: 64px;
+  font-family: "Effra", sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.black_text {
+  margin: 0;
+}
+
+.gray_text {
+  font-size: 64px;
+  font-family: "Effra", sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+  color: #adadad;
+}
