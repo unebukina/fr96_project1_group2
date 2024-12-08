@@ -337,6 +337,9 @@ main span {
     margin: 24px;
     background-color: #FAFAFA;
 }
+section{
+  background-color: #FAFAFA;
+}
 .brd{
     font-size: 55px;
     font-family: efra "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -403,7 +406,6 @@ main span {
 .ellipsis{
   margin-left: 480px;
 }
-
 /* блок Лены М конец */
 
 /* блок Нади */
