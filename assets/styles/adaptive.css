@@ -58,24 +58,38 @@
         transform: rotate(-45deg);
     }
 
-    .button_login {
-        display: none;
-    }
-    .button_register {
-        display: none;
+    .burger_button_login {
+        display: flex;
     }
 
-    .navbar {
+    .button_login {
+        padding: 0;
+        margin: 0;
+    }
+
+    .burger_button_register {
+        padding: 0;
+        display: flex;
+    }
+
+    .button_register {
+        padding: 0;
+        margin: 0;
+    }
+
+    .list.open {
+        margin: 0;
+        padding: 40px;
         display: flex;
         flex-direction: column;
-        top: 0; bottom: 0; left: 0; right: 0;
+        justify-content: space-evenly;
+        position: fixed;
+        height: 60%;
+        width: 100%;
+        top: 0; bottom: 0; right: 0;
+        z-index: 50;
         overflow-y: auto;
         background-color: black;
-    }
-
-    .navbar ul {
-        flex-direction: column;
-        row-gap: 30px;
     }
 
     /* Область 2 */
@@ -229,7 +243,7 @@
     .gray_text {
         font-size: 36px;
     }
-    
+
     /* Область 6 */
 
 

@@ -787,3 +787,11 @@ a:visited {
   word-wrap: break-word;
   color: #adadad;
 }
+
+.burger_button_login {
+  display: none;
+}
+
+.burger_button_register {
+  display: none;
+}

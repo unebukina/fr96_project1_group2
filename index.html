@@ -34,6 +34,12 @@
                     <li><a class="list_item_3" href="list_item_3">Pricing</a></li>
                     <li><a class="list_item_4" href="list_item_4">Solution</a></li>
                     <li><a class="list_item_5" href="list_item_5">Features</a></li>
+                    <div class="burger_button_login">
+                    <button class="button_login">Login</button>
+                    </div>
+                    <div class="burger_button_register">
+                    <button class="button_register">Register</button>
+                    </div>
                 </ul>
                 <!-- Иконка бургер-меню -->
                 <div class="nav_burger">
@@ -280,7 +286,7 @@
     <script>
         document.querySelector('.nav_burger').addEventListener('click', function () {
             this.classList.toggle('active');
-            document.querySelector('.navbar').classList.toggle('open');
+            document.querySelector('.list').classList.toggle('open');
         })
     </script>
 </body>
