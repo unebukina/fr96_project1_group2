@@ -219,9 +219,20 @@
         z-index: 1;
     }
 
+    /* Область 5 */
+
+    .white_container {
+        padding: 80px 18px;
+        font-size: 36px;
+    }
+
+    .gray_text {
+        font-size: 36px;
+    }
+    
     /* Область 6 */
 
-    /* Область 7 */
+
 
     /* Область 8 */
 
@@ -274,7 +285,7 @@
         padding: 0 18px;
     }
 
-    /* Область 9 */
+    /* Область 7 */
     /* блок Лены М */
     .container{
         width: 100%;
