@@ -329,62 +329,6 @@ main span {
   word-wrap: break-word;
 }
 
-/* блок Нади */
-
-/* Общие стили */
-
-.all-container {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-.pricing-container {
-  width: 90%;
-  max-width: 1200px;
-  text-align: center;
-}
-
-.offer {
-  font-size: 64px;
-  margin-bottom: 20px;
-  color: white;
-}
-
-/* Переключатель (Monthly/Yearly) */
-.switcher {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 30px;
-  font-size: 24px;
-  color: white;
-}
-
-.text-discount {
-  font-size: 14px;
-  font-family: cursive;
-}
-
-.toggle-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Базовый стиль для переключателя */
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 30px;
-}
 /* блок Лены М начало */
 .container{
     height: 124px;
@@ -461,6 +405,90 @@ main span {
 }
 
 /* блок Лены М конец */
+
+/* блок Нади */
+/* Общие стили */
+
+.all-container {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+}
+
+.pricing-container {
+  width: 1128px;
+  max-width: 1440px;
+  text-align: center;
+}
+
+.offer {
+  font-size: 64px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+/* Переключатель (Monthly/Yearly) */
+
+.monthly {
+  font-family: Inter;
+  font-weight: 500;
+}
+
+.yearly {
+  opacity: 0.50;
+  color: #F5F5F5;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+.switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: white;
+}
+
+.discount-banner {
+  position: relative;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.text-discount {
+font-size: 14px;
+font-family: cursive;
+transform: rotate(6deg);
+transform-origin: 0 0; 
+}
+
+.arrow {
+transform: rotate(6deg);
+transform-origin: 0 0; 
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Базовый стиль для переключателя */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
 /* Скрытый input */
 .switch input {
   opacity: 0;
@@ -489,18 +517,14 @@ main span {
   width: 24px;
   left: 3px;
   bottom: 3px;
-  background-color: #a8ff35;
+  background-color: #A8FF35;
   transition: 0.4s;
   border-radius: 74.25px;
 }
-section{
-    background-color: #FAFAFA;
-}
-/* блок Лены М конец */
 
 /* Состояние включено */
 input:checked + .slider {
-  background-color: #a8ff35;
+  background-color: #A8FF35;
 }
 
 input:checked + .slider::before {
@@ -510,18 +534,21 @@ input:checked + .slider::before {
 /* Карточки с тарифами */
 .pricing-cards {
   display: grid;
+  align-content: stretch;
+  align-items: stretch;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-top: 20px;
+  min-height: 40vh;
 }
 
 .card {
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .card.personal {
@@ -530,7 +557,7 @@ input:checked + .slider::before {
 }
 
 .card.regular {
-  background-color: #a8ff35;
+  background-color: #A8FF35;
   color: black;
 }
 
@@ -544,11 +571,6 @@ input:checked + .slider::before {
   margin-bottom: 10px;
 }
 
-.card .description {
-  font-size: 1em;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #ccc;
-}
 
 .card .price {
   font-size: 2em;
@@ -560,11 +582,32 @@ input:checked + .slider::before {
   font-size: 0.6em;
 }
 
+.line {
+  width: 296px;
+  height: 0px;
+  opacity: 0.20;
+  border: 1px black solid
+}
+
 .features {
   list-style: none;
   padding: 0;
-  margin: 10px 0;
+  margin: 0;
   text-align: left;
+}
+
+.features li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.features li::before {
+  content: "✔"; /* Символ галочки */
+  color: #000000;
+  font-weight: bold;
+  position: absolute;
+  left: 0; /* Позиция слева от текста */
 }
 
 .time {
@@ -580,25 +623,27 @@ input:checked + .slider::before {
 .card .btn {
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #a8ff35;
+  background-color: #A8FF35;
   color: black;
   border: none;
   border-radius: 25px;
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
 }
 
-.btn-white {
+.btn-black {
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #ffffff;
-  color: black;
+  background-color: #000000;
+  color: #FFFFFF;
   border: none;
   border-radius: 25px;
   cursor: pointer;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bold; 
 }
 
 .card .btn:hover {
