@@ -426,6 +426,7 @@
 
     .text-discount {
         padding-left: 60px;
+        padding-bottom: 18px;
         transform: rotate(6deg);
         font-size: 12px;
     }
@@ -442,6 +443,23 @@
         flex-wrap: wrap;
         flex-direction: column;
         padding: 0 18px;
+    }
+
+    .card .btn {
+        margin: 100px 40px 0 50px;
+    }
+
+    .btn-black {
+        margin: 122px 40px 0 50px;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+    .features {
+        display: grid;
+        gap: 24px;
     }
 
     /* Область 7 */
