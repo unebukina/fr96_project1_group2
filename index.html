@@ -34,6 +34,12 @@
                     <li><a class="list_item_3" href="list_item_3">Pricing</a></li>
                     <li><a class="list_item_4" href="list_item_4">Solution</a></li>
                     <li><a class="list_item_5" href="list_item_5">Features</a></li>
+                    <div class="burger_button_login">
+                    <button class="button_login">Login</button>
+                    </div>
+                    <div class="burger_button_register">
+                    <button class="button_register">Register</button>
+                    </div>
                 </ul>
                 <!-- Иконка бургер-меню -->
                 <div class="nav_burger">
@@ -59,7 +65,7 @@
             </div>
             <div class="buttomTekst">
                 <button type="button" class="buttonGetStarted">Get Started 🔥</button>
-                <img class="pic" src="assets/images/img-hero.png" alt="подпись"></img>
+                <img class="pic" src="assets/images/img-hero.png" alt="подпись">
             </div>
         </article>
         <!-- Часть Вики -->
@@ -132,21 +138,86 @@
                     time. Get ease and faster to discover a trend with just one tab.</div>
             </div>
         </div>
-        </div>
-        <div class="group-2">
-            <img class="image-2" src="assets/svg/Arrow6.svg" alt="right-arrow">
-            <div class="solution-for-discover">solution for discover a trend</div>
-        </div>
     <!--блок Ирины Б-->
         <div class="white_container">
             <p class="black_text">Findtrend helps you to increase your productivity 
                 and reduce your computer's memory load, <span class="gray_text">an application that can fulfill your 
                 daily browsing needs.</span></p>
         </div>
-    
+        <!-- блок Настя -->
+        <div class="partner_section">
+            <div class="text">Findtrend make +1000 Startup grow</div>
+                <div class="brands">
+                    <div class="rectangle_20">
+                        <div class="microsoft" style="background-image: url(assets/images/image\ 116.png);">
+                        </div>
+                    </div>
+                    <div class="box_1">
+                        <div class="allianz" style="background-image: url(assets/images/image\ 128.png);">
+                        </div>
+                    </div>
+                    <div class="box_1">
+                        <div class="upwork" style="background-image: url(assets/images/image\ 121.png);">
+                        </div>
+                    </div>
+                    <div class="box_1">
+                        <div class="volvo" style="background-image: url(assets/images/image\ 119.png);">
+                        </div>
+                    </div>
+                    <div class="rectangle_29">
+                        <div class="grab" style="background-image: url(assets/images/image\ 125.png);">
+                        </div>
+                    </div>
+                    <div class="box_2">
+                        <div class="verizon" style="background-image: url(assets/images/image\ 122.png);">
+                        </div>
+                    </div>
+                    <div class="box_2">
+                        <div class="coinbase" style="background-image: url(assets/images/image\ 133.png);">
+                        </div>
+                    </div>
+                    <div class="box_2">
+                        <div class="expedia" style="background-image: url(assets/images/image\ 129.png);">
+                        </div>
+                    </div>
+                    <div class="rectangle_21">
+                        <div class="airtable" style="background-image: url(assets/images/image\ 117.png);">
+                        </div>
+                    </div>
+                    <div class="box_3">
+                        <div class="magento" style="background-image: url(assets/images/image\ 126.png);">
+                        </div>
+                    </div>
+                    <div class="box_3">
+                        <div class="carrera" style="background-image: url(assets/images/image\ 120.png);">
+                        </div>
+                    </div>
+                    <div class="box_3">
+                        <div class="bonanza" style="background-image: url(assets/images/image\ 124.png);">
+                        </div>
+                    </div>
+                    <div class="rectangle_34">
+                        <div class="wetransfer" style="background-image: url(assets/images/image\ 132.png);">
+                        </div>
+                    </div>
+                    <div class="box_4">
+                        <div class="suzuki" style="background-image: url(assets/images/image\ 127.png);">
+                        </div>
+                    </div>
+                    <div class="box_4">
+                        <div class="algolia" style="background-image: url(assets/images/image\ 118.png);">
+                        </div>
+                    </div>
+                    <div class="box_4">
+                        <div class="heineken" style="background-image: url(assets/images/image\ 130.png);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!--Конец части Настя-->
     <!-- блок Лены М -->
     <section>
-    <div>
+    <div class="flex_container_mask">
             <h2 class="brd">All platform connect to Findtrend</h2>
             <div class="container">
                 <div class="img">
@@ -171,7 +242,7 @@
         <div class="ellipsis"><b>...</b></div>
         </div>
         <div id="text2">
-        <p>Replying to <span class="color">@elonmusk</p>
+        <p>Replying to <span class="color">@elonmusk</span>
         <br> For thous who (mistakenly) think this is a radiation risk,pick what yuo think <br>is the worst location. I will travel there&eat locally grown food on TV.</p>
         </div>
         </div>
@@ -198,6 +269,7 @@
             <p>The top U.S. securities relulator asked judge for permission to <br>distribute $40 million to  investors it obtained  in a 2018 civil settlemen... </p>
         </figcaption>
         </figure></div>
+        </div>
         </section>
         <!-- tweet2 -->
         <!-- конец блока Лены М -->
@@ -290,7 +362,7 @@
     <script>
         document.querySelector('.nav_burger').addEventListener('click', function () {
             this.classList.toggle('active');
-            document.querySelector('.navbar').classList.toggle('open');
+            document.querySelector('.list').classList.toggle('open');
         })
     </script>
 </body>

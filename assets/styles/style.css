@@ -330,24 +330,31 @@ main span {
 }
 
 /* блок Лены М начало */
+.flex_container_mask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .container{
     height: 124px;
     width: 1180px;
     display: flex;
     margin: 24px;
+    padding-bottom: 50px;
     background-color: #FAFAFA;
 }
 section{
   background-color: #FAFAFA;
 }
 .brd{
-    font-size: 55px;
+    margin: 0;
+    padding-bottom: 50px;
+    font-size: 64px;
     font-family: efra "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif, sans-serif;
     font-style: normal;
     text-align: center;
     background-color: #FAFAFA;
-    width: 1180px;
     height: 70px;
     /* justify-content: space-evenly; */
 }
@@ -359,8 +366,6 @@ section{
   border-radius: 15px;
   width: 800px;
   height: auto;
-  margin-left: 200px;
-  /* margin-top: 20px; */
   background-color: white;
 }
 #pic1{
@@ -381,7 +386,6 @@ section{
   border-radius: 15px;
   width: 800px;
   height: auto;
-  margin-left: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: white;
@@ -847,4 +851,258 @@ a:visited {
   font-weight: 700;
   word-wrap: break-word;
   color: #adadad;
+}
+
+.burger_button_login {
+  display: none;
+}
+
+.burger_button_register {
+  display: none;
+}
+/* Блок Насти */
+.partner_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+.text {
+  margin-top: 150px;
+  color: #000;
+  text-align: center;
+  font-family: Effra;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.brands {
+  padding-bottom: 200px;
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  grid-template-rows: repeat(4, 0.5fr);
+  margin-top: 80px;
+  height: 576px;
+  flex-shrink: 0;
+  align-content: space-between;
+}
+.rectangle_20 {
+  display: flex;
+  width: 266px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #F5F5F5;
+}
+.microsoft {
+  width: 190px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-top: 40px;
+  margin-right: 38px;
+  margin-bottom: 40px;
+  margin-left: 38px;
+}
+.box_1 {
+  display: flex;
+  width: 266px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #F5F5F5;
+  margin-left: 32px;
+}
+.allianz {
+  width: 156px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-top: 40px;
+  margin-right: 55px;
+  margin-bottom: 40px;
+  margin-left: 55px;
+}
+.upwork{
+  width: 146px;
+  height: 44px;
+  flex-shrink: 0;
+  margin-top: 38px;
+  margin-right: 60px;
+  margin-bottom: 38px;
+  margin-left: 60px;
+}
+.volvo {
+  width: 174px;
+  height: 24px;
+  flex-shrink: 0;
+  margin-top: 48px;
+  margin-right: 46px;
+  margin-bottom: 48px;
+  margin-left: 46px;
+}
+.rectangle_29 {
+  display: flex;
+  width: 266px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #F5F5F5;
+  margin-top: 32px;
+}
+.grab {
+  width: 112px;
+  height: 44px;
+  flex-shrink: 0;
+  margin-top: 38px;
+  margin-right: 77px;
+  margin-bottom: 38px;
+  margin-left: 77px;
+}
+.box_2 {
+  display: flex;
+  width: 266px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #F5F5F5;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+.verizon {
+  width: 162px;
+  height: 36px;
+  flex-shrink: 0;
+  margin-top: 42px;
+  margin-right: 52px;
+  margin-bottom: 42px;
+  margin-left: 52px;
+}
+.coinbase {
+  width: 148px;
+  height: 32px;
+  flex-shrink: 0;
+  margin-top: 44px;
+  margin-right: 59px;
+  margin-bottom: 44px;
+  margin-left: 59px;
+}
+.expedia {
+  width: 151px;
+  height: 44px;
+  flex-shrink: 0;
+  margin-top: 38px;
+  margin-right: 58px;
+  margin-bottom: 38px;
+  margin-left: 57px;
+}
+.rectangle_21 {
+  display: flex;
+  width: 266px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #F5F5F5;
+  margin-top: 32px;
+}
+.airtable {
+  width: 182px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-top: 40px;
+  margin-right: 42px;
+  margin-bottom: 40px;
+  margin-left: 42px;
+}
+.box_3 {
+  display: flex;
+  width: 266px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #F5F5F5;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+.magento {
+  width: 164px;
+  height: 48px;
+  flex-shrink: 0;
+  margin-top: 36px;
+  margin-right: 51px;
+  margin-bottom: 36px;
+  margin-left: 51px;
+}
+.carrera {
+  width: 174px;
+  height: 42px;
+  flex-shrink: 0;
+  margin-top: 39px;
+  margin-right: 46px;
+  margin-bottom: 39px;
+  margin-left: 46px;
+}
+.bonanza {
+  width: 160px;
+  height: 28px;
+  flex-shrink: 0;
+  margin-top: 46px;
+  margin-right: 53px;
+  margin-bottom: 46px;
+  margin-left: 53px;
+}
+.rectangle_34 {
+  display: flex;
+  width: 266px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #F5F5F5;
+  margin-top: 32px;
+}
+.wetransfer {
+  width: 176px;
+  height: 38px;
+  flex-shrink: 0;
+  margin-top: 41px;
+  margin-right: 45px;
+  margin-bottom: 41px;
+  margin-left: 45px;
+}
+.box_4 {
+  display: flex;
+  width: 266px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #F5F5F5;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+.suzuki {
+  width: 178px;
+  height: 34px;
+  flex-shrink: 0;
+  margin-top: 43px;
+  margin-right: 44px;
+  margin-bottom: 43px;
+  margin-left: 44px;
+}
+.algolia {
+  width: 162px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-top: 40px;
+  margin-right: 52px;
+  margin-bottom: 40px;
+  margin-left: 52px;
+}
+.heineken {
+  width: 190px;
+  height: 34px;
+  flex-shrink: 0;
+  margin-top: 43px;
+  margin-right: 38px;
+  margin-bottom: 43px;
+  margin-left: 38px;
 }
