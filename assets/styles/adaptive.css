@@ -247,7 +247,149 @@
 
     /* Область 6 */
 
+    .partner_section {
+        width: 100%;
+    }
 
+    .text {
+        font-size: 36px;
+    }
+
+    .brands {
+        display: grid;
+        grid-template-columns: repeat(2, 0.1fr);
+        grid-template-rows: repeat(8, 0.1fr);
+        gap: 14px;
+        height: 50%;
+    }
+
+    .rectangle_20 {
+        width: 162px;
+        height: 74px;
+        margin: 0;
+    }
+
+    .box_1 {
+        width: 162px;
+        height: 74px;
+        margin: 0;
+    }
+
+    .rectangle_29 {
+        width: 162px;
+        height: 74px;
+        margin: 0;
+    }
+    
+    .box_2 {
+        width: 162px;
+        height: 74px;
+        margin: 0;
+    }
+
+    .rectangle_21 {
+        width: 162px;
+        height: 74px;
+        margin: 0;
+    }
+
+    .box_3 {
+        width: 162px;
+        height: 74px;
+        margin: 0;
+    }
+
+    .rectangle_34 {
+        width: 162px;
+        height: 74px;
+        margin: 0;
+    }
+
+    .box_4 {
+        width: 162px;
+        height: 74px;
+        margin: 0;
+    }
+
+    .microsoft {
+        margin: 0;
+        width: 100%;
+    }
+
+    .allianz {
+        margin: 0;
+        width: 100%;
+    }
+
+    .upwork {
+        margin: 0;
+        width: 100%;
+    }
+
+    .volvo {
+        margin: 0;
+        width: 100%;
+    }
+
+    .grab {
+        margin: 0;
+        width: 100%;
+    }
+
+    .verizon {
+        margin: 0;
+        width: 100%;
+    }
+
+    .coinbase {
+        margin: 0;
+        width: 100%;
+    }
+
+    .expedia {
+        margin: 0;
+        width: 100%;
+    }
+
+    .airtable {
+        margin: 0;
+        width: 100%;
+    }
+
+    .magento {
+        margin: 0;
+        width: 100%;
+    }
+
+    .carrera {
+        margin: 0;
+        width: 100%;
+    }
+
+    .bonanza {
+        margin: 0;
+        width: 100%;
+    }
+
+    .wetransfer {
+        margin: 0;
+        width: 100%;
+    }
+
+    .suzuki {
+        margin: 0;
+        width: 100%;
+    }
+
+    .algolia {
+        margin: 0;
+        width: 100%;
+    }
+
+    .heineken {
+        margin: 0;
+        width: 100%;
+    }
 
     /* Область 8 */
 
@@ -304,47 +446,49 @@
     /* блок Лены М */
     .container{
         width: 100%;
-        margin: 5px;
+        height: 100%;
+        padding: 32px 18px;
+        margin: 0;
     }
     .brd{
-        font-size: 25px;
-        width: 85%;
-        height: 50px;
+        padding: 32px 18px;
+        font-size: 36px;
+        width: 100%;
     }
     .img{
         margin-left: 30px;
     }
     .img_1{
-        width: 50px;
-        height: 50px;
+        padding-right: 16px;
+        width: 64px;
+        height: 64px;
     }
     .img_2{
-        width: 50px;
-        height: 50px;
+        padding-right: 16px;
+        width: 64px;
+        height: 64px;
     }
     .img_3{
-        width: 50px;
-        height: 50px;
+        padding-right: 16px;
+        width: 64px;
+        height: 64px;
     }
     .img_4{
-        width: 50px;
-        height: 50px;
+        width: 64px;
+        height: 64px;
     }
     .img_5{
-        width: 50px;
-        height: 50px;
+        width: 64px;
+        height: 64px;
     }
     .img_6{
-        width: 50px;
-        height: 50px;
+        display: none;
     }
     .img_7{
-        width: 50px;
-        height: 50px;
+        display: none;
     }
     .img_8{
-        width: 50px;
-        height: 50px;
+        display: none;
     }
     .tweet1{
         width: 80%;

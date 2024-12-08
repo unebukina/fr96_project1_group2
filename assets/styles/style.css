@@ -386,11 +386,17 @@ main span {
   height: 30px;
 }
 /* блок Лены М начало */
+.flex_container_mask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .container{
     height: 124px;
     width: 1180px;
     display: flex;
     margin: 24px;
+    padding-bottom: 50px;
     background-color: #FAFAFA;
 }
 section{
@@ -398,13 +404,13 @@ section{
 }
 .brd{
     margin: 0;
-    font-size: 55px;
+    padding-bottom: 50px;
+    font-size: 64px;
     font-family: efra "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif, sans-serif;
     font-style: normal;
     text-align: center;
     background-color: #FAFAFA;
-    width: 1180px;
     height: 70px;
     /* justify-content: space-evenly; */
 }
@@ -416,8 +422,6 @@ section{
   border-radius: 15px;
   width: 800px;
   height: auto;
-  margin-left: 200px;
-  /* margin-top: 20px; */
   background-color: white;
 }
 #pic1{
@@ -438,7 +442,6 @@ section{
   border-radius: 15px;
   width: 800px;
   height: auto;
-  margin-left: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: white;
@@ -802,12 +805,10 @@ a:visited {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 732px;
   background-color: #ffffff;
 }
 .text {
-  width: 1160px;
-  margin-top: 20px;
+  margin-top: 150px;
   color: #000;
   text-align: center;
   font-family: Effra;
@@ -817,10 +818,11 @@ a:visited {
   line-height: normal;
 }
 .brands {
-  display: flex;
-  flex-wrap: wrap;
+  padding-bottom: 200px;
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  grid-template-rows: repeat(4, 0.5fr);
   margin-top: 80px;
-  width: 1160px;
   height: 576px;
   flex-shrink: 0;
   align-content: space-between;
