@@ -393,6 +393,9 @@ main span {
     margin: 24px;
     background-color: #FAFAFA;
 }
+section{
+  background-color: #FAFAFA;
+}
 .brd{
     font-size: 55px;
     font-family: efra "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -459,8 +462,8 @@ main span {
 .ellipsis{
   margin-left: 480px;
 }
-
 /* блок Лены М конец */
+
 /* Скрытый input */
 .switch input {
   opacity: 0;
@@ -493,10 +496,7 @@ main span {
   transition: 0.4s;
   border-radius: 74.25px;
 }
-section{
-    background-color: #FAFAFA;
-}
-/* блок Лены М конец */
+
 
 /* Состояние включено */
 input:checked + .slider {
