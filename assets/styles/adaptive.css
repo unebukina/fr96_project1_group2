@@ -79,8 +79,8 @@
     }
 
     .list.open {
-        margin: 0;
-        padding: 40px;
+        margin-top: 50px;
+        padding: 40px 0 40px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -370,6 +370,9 @@
     }
     .sign_foto{
         height: 150px;
+    }
+    .ellipsis {
+        display: none;
     }
     /* конец блока Лена М */
 }
