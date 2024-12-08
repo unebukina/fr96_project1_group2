@@ -413,13 +413,13 @@ section{
 
 .all-container {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Effra", sans-serif;
   background-color: black;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 75vh;
+  min-height: 90vh;
 }
 
 .pricing-container {
@@ -457,6 +457,10 @@ section{
   margin-bottom: 30px;
   font-size: 24px;
   color: white;
+}
+
+.switch-yearly {
+  opacity: 0.5;
 }
 
 .discount-banner {
@@ -526,7 +530,7 @@ transform-origin: 0 0;
 
 /* Состояние включено */
 input:checked + .slider {
-  background-color: #A8FF35;
+  background-color: darkgreen;
 }
 
 input:checked + .slider::before {
@@ -542,6 +546,7 @@ input:checked + .slider::before {
   gap: 20px;
   margin-top: 20px;
   min-height: 40vh;
+  justify-items: end;
 }
 
 .card {
@@ -551,11 +556,14 @@ input:checked + .slider::before {
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
+  min-height: 45vh;
 }
 
 .card.personal {
   background-color: white;
   color: black;
+  position: relative;
+  margin-left: 0;
 }
 
 .card.regular {
@@ -569,19 +577,20 @@ input:checked + .slider::before {
 }
 
 .card h3 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+  font-size: 2em;
+  margin-top: 5px;
+  margin: 0;
+  font-weight: 400;
 }
 
-
 .card .price {
-  font-size: 2em;
+  font-size: 50px;
   margin: 15px 0;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .card .price span {
-  font-size: 0.6em;
+  font-size: 18px;
 }
 
 .line {
@@ -594,9 +603,10 @@ input:checked + .slider::before {
 .features {
   list-style: none;
   padding: 0;
-  margin: 0;
+  line-height: 2;
   text-align: left;
-}
+  flex-grow: 1;
+  }
 
 .features li {
   margin-bottom: 10px;
@@ -624,33 +634,37 @@ input:checked + .slider::before {
 /* Кнопки */
 .card .btn {
   margin-top: 15px;
-  padding: 10px 20px;
+  padding: 15px 65px;
   background-color: #A8FF35;
   color: black;
   border: none;
   border-radius: 25px;
   cursor: pointer;
-  text-transform: uppercase;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
 }
 
 .btn-black {
   margin-top: 15px;
-  padding: 10px 20px;
+  padding: 15px 65px;
   background-color: #000000;
   color: #FFFFFF;
   border: none;
   border-radius: 25px;
   cursor: pointer;
-  text-transform: uppercase;
-  font-weight: bold; 
 }
 
 .card .btn:hover {
   background-color: darkgreen;
   color: white;
+}
+
+.btn-black:hover {
+  background-color: darkgreen;
+  color: #FFFFFF;
+}
+
+.free-trial-btn {
+  display: flex;
+  transform: translateX(35px);
 }
 
 /* конец блока Нади */
