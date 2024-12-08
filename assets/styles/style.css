@@ -397,6 +397,7 @@ section{
   background-color: #FAFAFA;
 }
 .brd{
+    margin: 0;
     font-size: 55px;
     font-family: efra "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif, sans-serif;
